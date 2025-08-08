@@ -1,4 +1,4 @@
-s// Timer 1 is 16-bit (0-65 535)
+// Timer 1 is 16-bit (0-65 535)
 //1/16MHz = 62.5ns which means for one tick is period 62.5ns(nanoseconds)
 // fclk=N * (0-65 535) / fcpu(16MHz) = 0.0327675s 
 
