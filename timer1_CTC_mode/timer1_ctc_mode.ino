@@ -13,7 +13,7 @@ void setup() {
     TIMSK1 |= (1 << OCIE1A); //Enable Output Compare A Match Interrupt Enable register
     OCR1A = 9;                //10us period
 
-  // TIFR1 |= (1 << OCF1A);  //Enable the Output Compare Flag register
+  // TIFR1 |= (1 << OCF1A);  //Enable the Output Compare Flag register manually
     sei();
 }
 
